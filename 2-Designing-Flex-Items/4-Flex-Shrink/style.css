@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-flow: row;
+  border: 1px solid #fff;
+  width: 400px;
+}
+
+.container div {
+  float: right;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.container div:nth-child(2) {
+  /* flex-shrink: 1; DEFAULT */
+  flex-shrink: 2;
+}

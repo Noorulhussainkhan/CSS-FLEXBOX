@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  /* ******************************************************************** */
+  flex-direction: row;
+  /* flex-wrap: nowrap; */ /* DEFAULT */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* FLEX-FLOW IS THE SHORTHAND FOR FLEX-DIRECTION & FLEX-WRAP */
+  flex-flow: row wrap;
+  /* ******************************************************************** */
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #fff;
+  height: 200px;
+  width: 500px;
+}

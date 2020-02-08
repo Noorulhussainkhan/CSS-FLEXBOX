@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fff;
+  width: 800px;
+}
+
+/* 
+  flex-basis
+  container has a) space left or b) is overfall
+  look at a) flex-grow & b) flex-shrink
+  calculate portions each item will grow or shrink
+*/
+
+.container div {
+  float: right;
+  /* flex-basis: auto; DEFAULT */
+  flex-basis: 100px;
+  flex-grow: 1;
+  margin: 0;
+}
